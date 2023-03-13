@@ -5,10 +5,6 @@ from django.shortcuts import redirect, render
 from django.template import loader
 from django.contrib.auth import authenticate, login
 from .models import User
-# from django.http import HttpResponse
-# from django.template import loader
-# from .models import Member
-# from .models import User
 from django.contrib import admin
 from django.contrib import messages
 from django.contrib.auth.models import User
